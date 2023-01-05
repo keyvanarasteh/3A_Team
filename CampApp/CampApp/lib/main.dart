@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/campArea.dart';
 import 'package:flutter_application_1/firstScreen.dart';
 import 'package:flutter_application_1/home.dart';
+import 'package:flutter_application_1/responsive/screenLayout.dart';
 
 import 'features.dart';
 
@@ -19,7 +20,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Features(),
+      routes: {
+        "/Welcome": (context) => FirstScreen(),
+        "/CampArea": (context) => campArea(),
+        "/Features": (context) => Features(),
+        "/Home": (context) => screenLayout()
+      },
+      initialRoute: "/Welcome",
     );
   }
 }
