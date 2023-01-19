@@ -16,10 +16,12 @@ Giriş Ekranı
 Ana Ekran
 ![Screen2](https://user-images.githubusercontent.com/115729640/213422247-bcd648dc-9d4a-44b5-83f3-53e5793c617e.png)
 
-Bilgi Ekranı
-![Screenshot_3](https://user-images.githubusercontent.com/115729640/213422288-e53677a2-f94d-4ea8-9b00-8590202a1263.png)
+
+Bilgi Ekranı ![Screenshot_3](https://user-images.githubusercontent.com/115729640/213422288-e53677a2-f94d-4ea8-9b00-8590202a1263.png)
 
 Kiralama Ekranı
+
+
 ![Screenshot_4](https://user-images.githubusercontent.com/115729640/213422299-466c6249-a53d-4daa-8ed1-531ad50ea9f0.png)
 
 Tablet Responsive
